@@ -1,0 +1,19 @@
+um simulador de back-end para construção dessa aplicação. 
+
+para limpar a formatação da aplicação, vc deve utilizar o seguinte comando:
+npx eslint --fix .
+
+Para rodar o servidor que vai simular o backend, digite em outra aba:
+npx json-server db.json --port 4000  
+
+instalação do pacote redux na aplicação:
+
+npm i --save react-redux @reduxjs/toolkit 
+
+
+então estão sendo criadas as pastas para o codigo estar de acordo com a arquiteutra flux através do redux
+
+Pela arquitetura o projeto deve começar pela criação da pasta store. 
+
+
+Tu armazena no store os dados e chama os dados através do Dispatch
